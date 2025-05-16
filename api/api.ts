@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "http://192.168.1.41:8000", // ❌ работает ТОЛЬКО в браузере
+  baseURL: "http://213.109.146.205:8000/docs",
 });
